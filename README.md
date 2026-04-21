@@ -6,7 +6,7 @@ Finance-trained FinOps analyst building production tooling for engineering and f
 
 ## Visibility → Variance → Tradeoffs
 
-Four tools. One pipeline. Built end-to-end for real cost decisions.
+Five tools. One pipeline. Built end-to-end for real cost decisions.
 
 ```
 ┌─────────────────────┐     ┌──────────────────────┐
@@ -26,14 +26,24 @@ Four tools. One pipeline. Built end-to-end for real cost decisions.
 │  Savings coverage   │     │  Backup/restore cost │
 │  Rightsizing        │     │  --compare flag      │
 └─────────────────────┘     └──────────────────────┘
+
+┌──────────────────────────────────────────────────┐
+│   AI Cost Lens                                   │
+│                                                  │
+│  AI spend observability                          │
+│  OpenAI · Anthropic · AWS Bedrock                │
+│  Normalizes to FOCUS 1.0 · --group-by model      │
+│  --compare periods · auto-detects provider       │
+└──────────────────────────────────────────────────┘
 ```
 
 | Stage | Tool | What it does |
 |-------|------|-------------|
-| **Visibility** | [FinOps Lite](https://github.com/dianuhs/finops-lite) | Pulls AWS spend from Cost Explorer, compares periods, exports FOCUS 1.0 CSV |
-| **Variance** | [FinOps Watchdog](https://github.com/dianuhs/finops-watchdog) | Detects spend anomalies from any cost CSV; outputs JSON/YAML/CSV + markdown summary |
-| **Tradeoffs** | [Recovery Economics](https://github.com/dianuhs/recovery-economics) | Models monthly resilience cost and compares scenarios side by side |
-| **Dashboard** | [Cloud Cost Guard](https://github.com/dianuhs/cloud-cost-guard) | Open-source dashboard: spend trends, savings coverage, rightsizing recommendations |
+| **Visibility** | [FinOps Lite](https://github.com/dianuhs/finops-lite) [![CI](https://github.com/dianuhs/finops-lite/actions/workflows/test.yml/badge.svg)](https://github.com/dianuhs/finops-lite/actions/workflows/test.yml) | Pulls AWS spend from Cost Explorer, compares periods, exports FOCUS 1.0 CSV |
+| **Variance** | [FinOps Watchdog](https://github.com/dianuhs/finops-watchdog) [![CI](https://github.com/dianuhs/finops-watchdog/actions/workflows/test.yml/badge.svg)](https://github.com/dianuhs/finops-watchdog/actions/workflows/test.yml) | Detects spend anomalies from any cost CSV; outputs JSON/YAML/CSV + markdown summary |
+| **Tradeoffs** | [Recovery Economics](https://github.com/dianuhs/recovery-economics) [![CI](https://github.com/dianuhs/recovery-economics/actions/workflows/test.yml/badge.svg)](https://github.com/dianuhs/recovery-economics/actions/workflows/test.yml) | Models monthly resilience cost and compares scenarios side by side |
+| **Dashboard** | [Cloud Cost Guard](https://github.com/dianuhs/cloud-cost-guard) [![CI](https://github.com/dianuhs/cloud-cost-guard/actions/workflows/test.yml/badge.svg)](https://github.com/dianuhs/cloud-cost-guard/actions/workflows/test.yml) | Open-source dashboard: spend trends, savings coverage, rightsizing recommendations |
+| **AI Spend** | [AI Cost Lens](https://github.com/dianuhs/ai-cost-lens) [![CI](https://github.com/dianuhs/ai-cost-lens/actions/workflows/test.yml/badge.svg)](https://github.com/dianuhs/ai-cost-lens/actions/workflows/test.yml) | Reads OpenAI, Anthropic, and AWS Bedrock billing exports; normalizes to FOCUS 1.0; `--group-by model` and `--compare` |
 
 ---
 
@@ -58,6 +68,7 @@ I come from a finance background and retrained into cloud infrastructure and Fin
 - **[dianuhs/finops-watchdog](https://github.com/dianuhs/finops-watchdog)** — anomaly detection from cost CSV
 - **[dianuhs/recovery-economics](https://github.com/dianuhs/recovery-economics)** — resilience cost modeling with scenario compare
 - **[dianuhs/cloud-cost-guard](https://github.com/dianuhs/cloud-cost-guard)** — open-source cloud cost dashboard
+- **[dianuhs/ai-cost-lens](https://github.com/dianuhs/ai-cost-lens)** — AI spend observability: OpenAI, Anthropic, Bedrock → FOCUS 1.0
 
 ---
 
