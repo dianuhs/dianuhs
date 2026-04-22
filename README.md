@@ -10,7 +10,7 @@ Six tools. One pipeline. Full Cloud+AI+SaaS coverage for every scope the FinOps 
 
 ```
 ┌─────────────────────┐     ┌──────────────────────┐
-│   FinOps Lite       │────▶│  FinOps Watchdog      │
+│   FinOps Lite       │────▶│  FinOps Watchdog     │
 │                     │     │                      │
 │  Cost visibility    │     │  Anomaly detection   │
 │  AWS/Azure/GCP      │     │  Spend spike alerts  │
@@ -19,7 +19,7 @@ Six tools. One pipeline. Full Cloud+AI+SaaS coverage for every scope the FinOps 
                                         │
                                         ▼
 ┌─────────────────────┐     ┌──────────────────────┐
-│  Cloud Cost Guard   │◀────│  Recovery Economics   │
+│  Cloud Cost Guard   │◀────│  Recovery Economics  │
 │                     │     │                      │
 │  Dashboard          │     │  Resilience modeling │
 │  Spend trends       │     │  Scenario comparison │
