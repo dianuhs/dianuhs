@@ -4,8 +4,6 @@ Finance-native. Building at the intersection of cloud economics, AI infrastructu
 
 - **Brand** · [@cloudandcapital](https://github.com/cloudandcapital)
 - **Site** · [cloudandcapital.com](https://cloudandcapital.com)
-- **Writing** · Markets & Mimosas on Substack
-- **Community** · FinOps Weekly Los Angeles
 - **Based** · Los Angeles
 
 ---
